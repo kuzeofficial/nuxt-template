@@ -15,11 +15,18 @@ export default defineNuxtConfig({
     '@nuxt/test-utils/module',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/eslint-module',
+    '@pinia/nuxt',
     'shadcn-nuxt',
   ],
   css: [resolve('./assets/scss/app.scss')],
   shadcn: {
     prefix: '',
     componentDir: './components/ui',
+  },
+  imports: {
+    dirs: [resolve('./stores'), '~/stores'],
+  },
+  pinia: {
+    storesDirs: ['~/stores/**', '#/stores/**', '@/stores/**'],
   },
 })
