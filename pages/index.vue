@@ -18,6 +18,5 @@ const count = computed(() => $state.count)
     </div>
     <span>Mouse position:</span>
     <div>pos: {{ x }}, {{ y }}</div>
-    <test-form />
   </div>
 </template>
