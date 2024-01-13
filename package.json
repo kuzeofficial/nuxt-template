@@ -24,10 +24,17 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@vee-validate/zod": "^4.12.4",
+    "@vueuse/core": "^10.7.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "embla-carousel": "^8.0.0-rc19",
+    "embla-carousel-vue": "^8.0.0-rc19",
     "lucide-vue-next": "^0.309.0",
     "tailwind-merge": "^2.2.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "v-calendar": "next",
+    "vee-validate": "^4.12.4",
+    "zod": "^3.22.4"
   }
 }
