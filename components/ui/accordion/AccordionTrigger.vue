@@ -22,9 +22,7 @@ const props = defineProps<AccordionTriggerProps & { class?: string }>()
       "
     >
       <slot />
-      <ChevronDown
-        class="h-4 w-4 shrink-0 transition-transform duration-200"
-      />
+      <ChevronDown class="h-4 w-4 shrink-0 transition-transform duration-200" />
     </AccordionTrigger>
   </AccordionHeader>
 </template>

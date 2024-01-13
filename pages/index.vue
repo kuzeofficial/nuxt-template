@@ -1,14 +1,14 @@
 <script>
 defineNuxtComponent({
-    name: 'IndexPage'
+  name: 'IndexPage',
 })
 </script>
 
 <template>
   <div>
-    <Button>
-      <NuxtLink to="/settings">Settings</NuxtLink>
-    </Button>
+    <NuxtLink to="/settings">
+      <Button> Settings </Button>
+    </NuxtLink>
     <h1>Index Page</h1>
   </div>
 </template>

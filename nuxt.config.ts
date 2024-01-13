@@ -14,13 +14,12 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/test-utils/module',
     '@nuxtjs/tailwindcss',
-    'shadcn-nuxt'
+    '@nuxtjs/eslint-module',
+    'shadcn-nuxt',
   ],
-  css: [
-    resolve('./assets/scss/app.scss')
-  ],
+  css: [resolve('./assets/scss/app.scss')],
   shadcn: {
     prefix: '',
-    componentDir: './components/ui'
-  }
+    componentDir: './components/ui',
+  },
 })

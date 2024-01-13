@@ -11,6 +11,8 @@ interface Props extends /* @vue-ignore */ PrimitiveProps {
 
 withDefaults(defineProps<Props>(), {
   as: 'button',
+  variant: 'default',
+  size: 'default',
 })
 </script>
 

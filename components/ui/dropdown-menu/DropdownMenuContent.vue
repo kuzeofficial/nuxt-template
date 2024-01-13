@@ -12,6 +12,7 @@ const props = withDefaults(
   defineProps<DropdownMenuContentProps & { class?: string }>(),
   {
     sideOffset: 4,
+    class: '',
   },
 )
 const emits = defineEmits<DropdownMenuContentEmits>()

@@ -11,6 +11,7 @@ const props = withDefaults(
   defineProps<HoverCardContentProps & { class?: string }>(),
   {
     sideOffset: 4,
+    class: '',
   },
 )
 

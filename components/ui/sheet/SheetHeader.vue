@@ -6,9 +6,7 @@ const props = defineProps<{ class?: string }>()
 
 <template>
   <div
-    :class="
-      cn('flex flex-col space-y-2 text-center sm:text-left', props.class)
-    "
+    :class="cn('flex flex-col space-y-2 text-center sm:text-left', props.class)"
   >
     <slot />
   </div>

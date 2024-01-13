@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import { PaginationLast, type PaginationLastProps, useForwardProps } from 'radix-vue'
-import { ChevronsRight } from 'lucide-vue-next'
 import {
-  Button,
-} from '@/components/ui/button'
+  PaginationLast,
+  type PaginationLastProps,
+  useForwardProps,
+} from 'radix-vue'
+import { ChevronsRight } from 'lucide-vue-next'
+import { Button } from '@/components/ui/button'
 
 const props = withDefaults(defineProps<PaginationLastProps>(), {
   asChild: true,

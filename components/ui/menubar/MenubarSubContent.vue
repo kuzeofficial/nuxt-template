@@ -12,6 +12,7 @@ const props = withDefaults(
   {
     sideOffset: 2,
     alignOffset: 0,
+    class: '',
   },
 )
 

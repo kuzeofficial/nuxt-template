@@ -1,7 +1,11 @@
 <script setup lang="ts">
 import emblaCarouselVue from 'embla-carousel-vue'
 import { useProvideCarousel } from './useCarousel'
-import type { CarouselEmits, CarouselProps, WithClassAsProps } from './interface'
+import type {
+  CarouselEmits,
+  CarouselProps,
+  WithClassAsProps,
+} from './interface'
 import { cn } from '@/lib/utils'
 
 const props = withDefaults(defineProps<CarouselProps & WithClassAsProps>(), {
