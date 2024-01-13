@@ -8,7 +8,7 @@ import {
 import { cn } from '@/lib/utils'
 
 const props = withDefaults(
-  defineProps<MenubarSubContentProps & { class?: string }>(),
+  defineProps<MenubarSubContentProps & { class?: string; asChild?: boolean }>(),
   {
     sideOffset: 2,
     alignOffset: 0,

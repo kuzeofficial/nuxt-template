@@ -7,12 +7,14 @@ interface Props extends /* @vue-ignore */ PrimitiveProps {
   variant?: NonNullable<Parameters<typeof buttonVariants>[0]>['variant']
   size?: NonNullable<Parameters<typeof buttonVariants>[0]>['size']
   as?: string
+  asChild?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
   as: 'button',
   variant: 'default',
   size: 'default',
+  asChild: false,
 })
 </script>
 

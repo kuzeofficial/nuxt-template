@@ -7,7 +7,7 @@ import {
 import { cn } from '@/lib/utils'
 
 const props = withDefaults(
-  defineProps<MenubarContentProps & { class?: string }>(),
+  defineProps<MenubarContentProps & { class?: string; asChild?: boolean }>(),
   {
     align: 'start',
     alignOffset: -4,

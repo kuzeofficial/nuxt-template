@@ -5,3 +5,4 @@ dist
 coverage
 components.d.ts
 nuxt.d.ts
+components/ui/form/*.vue
