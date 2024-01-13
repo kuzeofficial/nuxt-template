@@ -13,6 +13,8 @@ This template is built with love and care, using some of the most efficient and 
 - **ShacnUI**: To pretty compoments
 - **Husky**: To keep everything working after commit
 - **Pinia**: To store and consult your things globally
+- **Lucide**: For icons
+- **VeeValidate**: To carry your forms to the next level of validations with `zod`
 
 ## Commands 🛠️
 
