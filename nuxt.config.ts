@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     '@nuxt/test-utils/module',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/eslint-module',
+    '@vueuse/nuxt',
     '@pinia/nuxt',
     'shadcn-nuxt',
   ],
