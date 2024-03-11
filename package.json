@@ -29,7 +29,7 @@
     "playwright-core": "^1.40.1",
     "prettier": "^3.2.1",
     "sass": "^1.69.7",
-    "shadcn-nuxt": "^0.9.0",
+    "shadcn-nuxt": "^0.10.0",
     "vitest": "^1.2.0",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
